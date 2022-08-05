@@ -5,20 +5,25 @@
 }
 
 html {
-font-size: $font-size;
-font-family: $font-main;
+  font-size: $font-size;
+  font-family: $font-main;
+  overflow-y: scroll;
 }
 
 body {
-color: $color-primary;
-border-color: $color-light;
+  color: $color-primary;
+  border-color: $color-light;
 }
 
 h1 {
-font-family: $font-header;
+  font-family: $font-header;
+
+  font-size: 3.75rem;
+  letter-spacing: 0.08em;
+  font-weight: 300;
 }
 
 a {
-text-decoration: none;
-color: $color-light;
+  text-decoration: none;
+  color: $color-light;
 }

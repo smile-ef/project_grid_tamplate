@@ -1,4 +1,20 @@
-@use "../../libs/normalize.css/normalize";
+@import "../../libs/normalize.css/normalize";
+@import "common/typography";
+@import "common/classes";
+@import "components/header/header";
+@import "components/header/header-overlay";
+@import "components/header/header-menu";
+@import "components/header/header-logo";
+@import "components/header/header-navbar";
+@import "components/header/header-content";
+@import "components/sections/skills/skills";
+@import "components/sections/skills/skill-item";
+@import "components/sections/section-about";
+@import "components/sections/section-form";
+@import "components/sections/section-posts";
+@import "components/footer/footer";
+/*# sourceMappingURL=style.css.map */
+/* @use "../../libs/normalize.css/normalize";
 @use "common/typography";
 @use "common/classes";
 @use "components/header/header";
@@ -12,5 +28,4 @@
 @use "components/sections/section-about";
 @use "components/sections/section-form";
 @use "components/sections/section-posts";
-@use "components/footer/footer";
-/*# sourceMappingURL=style.css.map */
+@use "components/footer/footer"; */
