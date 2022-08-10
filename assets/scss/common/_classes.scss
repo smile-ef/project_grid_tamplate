@@ -1,12 +1,11 @@
 @use "../presets/" as *;
+@use "../mixins/" as *;
 
 .btn {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-width: 250px;
   height: 60px;
-  background-color: rgba($color-light, 0.1);
   border: 2px solid $color-light;
   padding: 0.5em 1em;
   font-size: 18px;
@@ -16,4 +15,18 @@
   &:focus {
     background-color: $color-accent;
   }
+  &--light {
+    min-width: 250px;
+    background-color: rgba($color-light, 0.1);
+  }
+  &--primary {
+    width: 350px;
+    height: 60px;
+    background-color: rgba($color-primary, 0.8);
+    border: 2px solid #2d3651;
+  }
+}
+
+.hidden {
+  @include visually-hidden;
 }

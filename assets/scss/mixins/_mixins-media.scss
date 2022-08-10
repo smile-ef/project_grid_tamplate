@@ -2,7 +2,6 @@
 
 $diff: 0.2px;
 
-/* ul */
 @mixin ul-min {
   @media (min-width: $ul) {
     @content;
