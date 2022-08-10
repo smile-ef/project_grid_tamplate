@@ -7,7 +7,7 @@
   &__list {
     display: flex;
     justify-content: flex-end;
-    @include unlist;
+    @include unlist(0 -20px 0 0);
   }
   &__item {
     margin: $gap-sm;
@@ -17,7 +17,7 @@
     padding: $gap $gap-sm;
 
     font-size: 18px;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.09em;
     transition: color 0.5s;
     &:hover,
     &:focus {

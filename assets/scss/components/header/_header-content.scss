@@ -1,13 +1,14 @@
 .header-content {
   position: relative;
   top: 0;
+  right: 0px;
   z-index: 1;
   width: 100%;
   &__container {
     @extend %container;
   }
   &__title {
-    margin: 0 0 66px;
+    margin: 0 0 53px;
     text-align: center;
   }
   &__actions {
