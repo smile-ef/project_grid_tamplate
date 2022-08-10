@@ -1,33 +1,33 @@
-@import "../../libs/normalize.css/normalize";
+// @import "../../libs/normalize.css/normalize";
 
-@import "presets/variables";
-@import "presets/skin";
+// @import "presets/variables";
+// @import "presets/skin";
 
-@import "mixins/mixins";
-@import "mixins/extends";
-@import "mixins/mixins-media";
+// @import "mixins/mixins";
+// @import "mixins/extends";
+// @import "mixins/mixins-media";
 
-@import "common/typography";
-@import "common/classes";
+// @import "common/typography";
+// @import "common/classes";
 
-@import "components/header/header";
-@import "components/header/header-content";
-@import "components/header/header-logo";
-@import "components/header/header-menu";
-@import "components/header/header-navbar";
-@import "components/header/header-overlay";
+// @import "components/header/header";
+// @import "components/header/header-content";
+// @import "components/header/header-logo";
+// @import "components/header/header-menu";
+// @import "components/header/header-navbar";
+// @import "components/header/header-overlay";
 
-// @use "../../libs/normalize.css/normalize";
-// @use "components/header/header";
-// @use "components/header/header-overlay";
-// @use "components/header/header-menu";
-// @use "components/header/header-logo";
-// @use "components/header/header-navbar";
-// @use "components/header/header-content";
-// @use "components/sections/skills/skills";
-// @use "components/sections/skills/skill-item";
-// @use "components/sections/section-about";
-// @use "components/sections/section-form";
-// @use "components/sections/section-posts";
+@use "../../libs/normalize.css/normalize";
+@use "components/header/header";
+@use "components/header/header-overlay";
+@use "components/header/header-menu";
+@use "components/header/header-logo";
+@use "components/header/header-navbar";
+@use "components/header/header-content";
+@use "components/sections/skills/skills";
+@use "components/sections/skills/skill-item";
+@use "components/sections/section-about";
+@use "components/sections/section-form";
+@use "components/sections/section-posts";
 
-// @use "components/footer/footer";
+@use "components/footer/footer";

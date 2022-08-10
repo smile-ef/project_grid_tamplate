@@ -1,3 +1,6 @@
+@use "../presets/" as *;
+@use "../mixins/" as *;
+
 %container {
   max-width: $ul;
   padding-left: $gap;

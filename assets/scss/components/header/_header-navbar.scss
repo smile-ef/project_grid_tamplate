@@ -1,3 +1,6 @@
+@use "../../presets/" as *;
+@use "../../mixins/" as *;
+
 .header-navbar {
   width: 100%;
   flex-grow: 1;

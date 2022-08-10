@@ -1,3 +1,6 @@
+@use "../../presets/" as *;
+@use "../../mixins/" as *;
+
 .header-overlay {
   position: absolute;
   inset: 0;
