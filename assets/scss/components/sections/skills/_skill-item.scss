@@ -9,6 +9,8 @@
   &__image {
     @include abs-position;
     transition: transform 0.5s;
+    background-position: center;
+    background-size: cover;
   }
 
   &__overlay {
@@ -28,19 +30,29 @@
   }
 
   &__title {
-    // background-color: green;
     position: relative;
     z-index: 1;
     margin: 0;
+
+    @include md-min {
+      font-size: 1.25rem;
+    }
+    @include md {
+      font-size: 1.125rem;
+    }
+
     @include abs-position;
   }
+
   &:hover {
     .skill-item__overlay {
       opacity: 0.95;
     }
+
     .skill-item__image {
       transform: scale(1.1);
     }
+
     .skill-item__link {
       color: $color-accent;
     }
