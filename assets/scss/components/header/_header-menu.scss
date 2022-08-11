@@ -8,6 +8,10 @@
   right: 0px;
   left: 0;
 
+  @include md {
+    background-color: rgba($color-gray-dark, 0.25);
+  }
+
   &__container {
     display: flex;
     align-items: center;
