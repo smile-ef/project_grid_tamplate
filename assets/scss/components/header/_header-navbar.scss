@@ -67,20 +67,19 @@
     @include md {
       display: none;
       @include unlist;
-    }
-
-    &.active {
-      display: block;
       position: absolute;
       right: 20px;
       background-color: rgba($color-gray-dark, 0.95);
       top: 100%;
       text-align: right;
+      @include box-shadow;
     }
   }
+
   &__item {
     margin: $gap-sm;
   }
+
   &__link {
     display: block;
 

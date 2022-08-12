@@ -421,8 +421,8 @@ a {
 .header-menu {
   position: absolute;
   z-index: 2;
-  top: 10px;
-  right: 0px;
+  top: 0;
+  right: 0;
   left: 0;
 }
 .header-menu__container {
@@ -505,14 +505,6 @@ a {
   -webkit-transform: rotate(-135deg);
       -ms-transform: rotate(-135deg);
           transform: rotate(-135deg);
-}
-.header-navbar__list.active {
-  display: block;
-  position: absolute;
-  right: 20px;
-  background-color: rgba(68, 89, 110, 0.95);
-  top: 100%;
-  text-align: right;
 }
 .header-navbar__item {
   margin: 10px;
@@ -753,12 +745,21 @@ a {
   }
   .header-menu {
     background-color: rgba(68, 89, 110, 0.25);
+    -webkit-box-shadow: -3px 3px 20px -10px black;
+            box-shadow: -3px 3px 20px -10px black;
   }
   .header-navbar__list {
     display: none;
     margin: 0;
     padding: 0;
     list-style: none;
+    position: absolute;
+    right: 20px;
+    background-color: rgba(68, 89, 110, 0.95);
+    top: 100%;
+    text-align: right;
+    -webkit-box-shadow: -3px 3px 20px -10px black;
+            box-shadow: -3px 3px 20px -10px black;
   }
   .header-navbar__link {
     padding: 10px 20px;
