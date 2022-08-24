@@ -13,10 +13,13 @@
 @use "components/sections/skills/skills";
 @use "components/sections/skills/skill-item";
 
-@use "components/sections/section-about";
+@use "components/sections/about/about";
+@use "components/sections/about/about__content";
+@use "components/sections/about/about__img";
 
-@use "components/sections/section-form";
+@use "components/sections/form/form";
+@use "components/sections/form/form-item";
 
-@use "components/sections/section-posts";
+@use "components/sections/posts/posts";
 
 @use "components/footer/footer";
