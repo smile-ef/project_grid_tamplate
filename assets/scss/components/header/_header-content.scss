@@ -15,7 +15,7 @@
   &__title {
     text-align: center;
     @include lg-min {
-      margin: 0 0 53px;
+      margin: 0px 0 52px;
     }
 
     @include lg-md {
@@ -34,6 +34,13 @@
     @include sm {
       flex-direction: column;
       align-items: center;
+    }
+
+    & .btn {
+      @include lg-min {
+        margin: 1px 0px 0px 0px;
+        letter-spacing: 0.099em;
+      }
     }
   }
 }

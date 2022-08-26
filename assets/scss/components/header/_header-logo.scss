@@ -4,10 +4,14 @@
 .header-logo {
   font-size: 1.5rem;
   letter-spacing: 0.22em;
-  padding: $gap $gap $gap 0;
+
+  @include lg-min {
+    padding: 31px 22px 20px 0px;
+  }
+
   &__accent {
     margin-right: 4px;
     border: 3px solid $color-highlight;
-    padding: 12px 1px 13px 5px;
+    padding: 13px 1px 13px 5px;
   }
 }

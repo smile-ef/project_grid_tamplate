@@ -57,6 +57,9 @@
   }
 
   &__list {
+    @include lg-min {
+      margin: 10px -20px 0 0px;
+    }
     @include md-min {
       display: grid;
       justify-content: end;
