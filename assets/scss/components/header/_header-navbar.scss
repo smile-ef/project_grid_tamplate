@@ -58,11 +58,17 @@
 
   &__list {
     @include lg-min {
+      margin: 9px -20px 0 0;
+    }
+
+    @include lg-md {
       margin: 10px -20px 0 0px;
     }
+
     @include md-min {
       display: grid;
       justify-content: end;
+      margin: 10px -20px 0 0;
       grid-template-columns: repeat(auto-fit, minmax(50px, max-content));
       @include unlist(0 -20px 0 0);
     }
