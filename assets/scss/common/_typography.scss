@@ -14,9 +14,9 @@ html {
 }
 
 body {
-  color: $color-primary;
+  color: $color-gray;
   border-color: $color-light;
-  letter-spacing: 0.1em;
+  // letter-spacing: 0.1em;
 }
 
 h1 {
@@ -39,13 +39,30 @@ h1 {
 }
 
 h2 {
+  margin: 0;
   letter-spacing: 0.1em;
   color: #2d3651;
   font-family: $font-header;
   line-height: 1.2em;
-  font-size: 2.5em;
+
+  @include lg-min {
+    font-size: 2.5em;
+  }
+
+  @include lg-md {
+    font-size: 2em;
+  }
+
+  @include md {
+    font-size: 1.5em;
+  }
 }
 
+h3 {
+  font-size: 1.125rem;
+  color: $color-gray;
+  letter-spacing: 0.05em;
+}
 p {
   color: #637588;
 }
